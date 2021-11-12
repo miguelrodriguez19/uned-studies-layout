@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.black{
+    color: black;
+}
+.lightGrey{
+    color: rgb(120, 130, 139);
+}
+header{
+    width: 100%;
+    height: 65px;
+    padding: 10px 15px 10px 15px;
+    box-shadow: 0px 6px 5px -6px rgb(0 0 0 / 75%);
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.leftMenu{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.menuSimbol{
+    margin-right: 20px;
+}
+.blackLine, .lastBlackLine{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+.lastBlackLine{
+    width: 25px;
+}
+.unedLogo{
+    height: 60px;
+    width: 60px;
+}
+.rightMenu{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+}
+.searchIcon{
+    margin-right: 5px;
+    height: 15px;
+}
+.idiomIcon{
+    width: 15px;
+}
+.idiom>a, .campus{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.idiom>a:hover, .campus:hover{
+    color: rgb(0, 83, 63);
+    text-decoration: revert;
+}
+main{
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 700px;
+
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+nav>ol{
+    list-style: none;
+    display: flex;
+}
+li>a{
+    text-decoration: none;
+    margin: 5px;
+}
+.studies{
+    height: fit-content;
+    position: relative;
+    margin-bottom: 50px;
+}
+.studies>img{
+    width: -webkit-fill-available;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.studies>h2{
+    position: absolute;
+    right: 45px;
+    bottom: 40px;
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 3px 2px rgb(114, 114, 114);
+    margin: 0px;
+}
+.whatStudy{
+    height: fit-content;
+    position: relative;
+
+    background: no-repeat url("https://www.uned.es/universidad/dam/jcr:4fcfcd06-eb75-40e1-9fec-bac721411b9c/4fcfcd06-eb75-40e1-9fec-bac721411b9c%22");
+    background-position: center;
+    background-size: cover;   
+}
+.whatStudyTitle{
+    background-color: rgba(255 255 255 / 80%);
+    padding-top: 20px;
+}
+.whatStudyTitle>h2{
+    margin-top: 0px;
+}
+/*.whatStudyTitle>p{
+    float: left;
+    width: 500px;
+}*/
+.whatStudyText{
+    display: flex;
+    width: -webkit-fill-available;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.whatStudyText>p{
+    width: 600px;
+    text-align: left;
+    margin-right: 15px;
+}
+.whatStudyText>button{
+    color: black;
+    background-color: white;
+    border: solid 2px black;
+    font-weight: bold;
+    font-family: inherit;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding: 8px 16px 8px 16px;
+}
+.whatStudyText>button:hover{
+    font-weight: bold;
+    color: white;
+    background-color: violet;
+    border: solid 2px violet;
+    font-family: inherit;
+}
